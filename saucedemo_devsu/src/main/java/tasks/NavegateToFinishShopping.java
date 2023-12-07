@@ -19,8 +19,7 @@ public class NavegateToFinishShopping implements Task {
                 SendKeys.of("User QA").into(CheckoutPage.FIRST_NAME),
                 SendKeys.of("test").into(CheckoutPage.LAST_NAME),
                 SendKeys.of("050042").into(CheckoutPage.POSTAL_CODE),
-                Click.on(CheckoutPage.CONTINUE_BUTTON),
-                Click.on(CheckoutPage.FINISH_BUTTON)
+                Click.on(CheckoutPage.CONTINUE_BUTTON)
         );
     }
 

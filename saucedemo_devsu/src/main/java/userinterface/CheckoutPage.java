@@ -10,4 +10,5 @@ public class CheckoutPage {
     public static final Target CONTINUE_BUTTON = Target.the("Continue button").located(By.id("continue"));
     public static final Target FINISH_BUTTON = Target.the("Finish button").located(By.id("finish"));
     public static final Target TEXT_FINISH = Target.the("Finish text").located(By.className("complete-header"));
+    public static final Target TOTAL_TEXT = Target.the("Total").locatedBy("//*[@class='summary_info_label summary_total_label']");
 }

@@ -1,0 +1,7 @@
+Conclusiones automatización E2E en SauceDemo
+
+En primer lugar, se realizó el mapeo de los elementos con ayuda del DevTools de Chrome y realizó un prueba exploratoria, con el fin de comprender el comportamiento de la página web,
+en la automatización se priorizó por identificar los elemntos por su Id y su Class.
+
+Funcionalmente, la página se comporto correctamente, permitiendo navegar y realizar un proceso de compra sencillo, pero se observa que permite realizar compras por 0 pesos,
+aunque no se puede considerar un error funcional, se puede evaluar que experiencia entrega al cliente este comportamiento.

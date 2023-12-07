@@ -1,0 +1,9 @@
+Conclusiones automatización de la API en DemoBlaze
+
+Para comprender el comportamiento de la API en los endpoints 'signup' y 'login', se llevó a cabo la identificación de las entradas (Body) y la captura de las salidas (mensajes y códigos de respuesta).
+Este proceso se realizó utilizando la herramienta DevTools de Chrome, la cual facilita la captura de todas las llamadas realizadas a las APIs a través de la sección de RED.
+
+Luego, se llevaron a cabo llamadas a las APIs para configurar los correspondientes mensajes de respuesta en los diferentes casos de prueba a evaluar.
+
+La API demuestra un comportamiento funcional apropiado, cumpliendo con su funcionalidad y presentando mensajes de respuesta claros. Sin embargo, se identifica una oportunidad de mejora en los códigos de respuesta,
+ya que, en todos los casos de prueba evaluados, el código devuelto es 200, incluso en aquellos casos diseñados para simular fallos.
